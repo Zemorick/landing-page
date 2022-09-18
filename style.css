@@ -1,0 +1,63 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:16px;
+    gap: 24px;
+    
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+.fruitImage {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    padding-bottom: 16px;
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.companyLogo {
+    display: flex;
+    gap: 16px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
